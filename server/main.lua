@@ -575,7 +575,7 @@ local function playerConnect(name, setKickReason, deferrals)
     end
 
     if serverConfig.anti_spam.enable then
-        for i=serverConfig.timer,0,-1 do
+        for i=serverConfig.anti_spam.timer,0,-1 do
             AdaptiveCard(deferrals, serverConfig.translate.title, serverConfig.anti_spam.please_wait(i))
             Wait(1000)
         end
