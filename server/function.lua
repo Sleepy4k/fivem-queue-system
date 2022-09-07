@@ -1,4 +1,4 @@
-local NKCore = {}
+NKCore = {}
 
 function NKCore.FormatString(data,...)
 	return string.format(data,...)
