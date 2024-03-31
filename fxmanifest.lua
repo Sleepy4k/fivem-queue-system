@@ -5,11 +5,11 @@ lua54        'yes'
 game         'gta5'
 
 --// Resource Information \\--
-name         'NKCore Queue'
+name         'Fivem Queue'
 author       'Benjamin4k'
 version      '1.0.0'
-repository   'https://github.com/naka-studios/NKCore'
-description  'NKCore player connect handler with queue system'
+repository   'https://github.com/sleepy4k/fivem-queue-system'
+description  'Simple queue handler for NKCore Framework, look at https://github.com/naka-studios'
 
 --// Manifest \\--
 server_scripts {
